@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-  font-family: 'Poppins';
+  font-family:'Poppins';
   margin: 0px;
   padding:0px;
 }
@@ -126,6 +126,7 @@ header > div {
       transform: skew(9deg,0deg);
       padding: 2px 30px 0px 30px;
       font-size: 1.5em;
+      font-weight: bold;
   }
   #company article{
       width: 600px;
@@ -142,17 +143,18 @@ header > div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 20px 100px 20px;
   }
 
   #options div{
       display: flex;
       justify-content: space-between;
-    width: 60em;
+    width: 62em;
     margin: 30px;
     
   }
 
-  #options h4{
+  #options h5{
       color:#ED1C24;
       
   }
@@ -169,6 +171,16 @@ header > div {
   #options img{
     width: 30px;
     
+  }
+
+  /*Boton create an org*/
+
+  .btn-create{
+    background-color:black;
+    color:white;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2);
+    padding: 9px 80px;
+    font-size: 1em;
   }
 
   
